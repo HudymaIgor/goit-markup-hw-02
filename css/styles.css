@@ -1,0 +1,767 @@
+.body{
+   background-color: #fff;
+   color: #212121;
+}
+
+/*Шрифти*/
+h4 
+{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+h3 
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+h2
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;    
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+/*Логотип*/
+.logo05,
+.logo1 
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo05{
+    color: #2196F3;    
+}
+.logo1{
+    color: #000000;
+}
+
+.Studio:hover,
+.Studio:focus,
+.Contacts:hover,
+.Contacts:focus,
+.Portfolio:hover,
+.Portfolio:focus
+{
+    color: #2196F3;
+}
+
+.batton-order-txt:hover,
+.batton-order-txt:focus,
+.batton-all-txt:hover,
+.batton-all-txt:focus, 
+.batton-websites-txt:hover,
+.batton-websites-txt:focus,
+.batton-programs-txt:hover,
+.batton-programs-txt:focus,
+.batton-design-txt:hover,
+.batton-design-txt:focus,
+.batton-marketing-txt:hover,
+.batton-marketing-txt:focus
+{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.batton-order-txt{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.batton-all-txt,
+.batton-websites-txt,
+.batton-programs-txt,
+.batton-design-txt,
+.batton-marketing-txt
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*Размешение*/
+
+/*верхняя линия*/
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.logo-top
+{
+position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+}
+.Studio{
+position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.Portfolio
+{
+position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+}
+.Contacts
+{
+position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 679px;
+    top: 32px;
+}
+
+.mail-top{
+position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+}
+.tel-top{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+}
+
+/*Шапка*/
+.hat
+{
+position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+} 
+
+.h1 {
+position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+
+.batton-order-txt {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+}
+
+/*Плюси роботи с фирмой текст*/
+
+.work-firm{
+position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+    
+}
+
+.work-h3-1{
+position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+}
+
+.work-h3-2
+{position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;}
+
+.work-h3-3
+{position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;}
+
+.work-h3-4
+{position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;}
+
+.work-p-1{
+position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+}
+
+.work-p-2{
+position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 515px;
+    top: 800px;
+}
+
+.work-p-3
+{
+position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 800px;
+}
+
+.work-p-4
+{
+position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 1115px;
+    top: 800px;
+}
+
+/* Примери робот фото*/
+
+.pictures-robots{
+position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+.code-structure
+{
+position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+}
+.telephone-adaptation 
+{
+position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.color-palette {
+position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+ 
+/* команда */
+.comands {
+position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;;
+}
+.comands-txt {
+position: absolute;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+}
+.prod-design
+{
+position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+} 
+.frontend
+{
+position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.marketing
+{
+position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.designer
+{
+position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.name-1 {
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 275px;
+    top: 1925px;
+}
+.name-2 {
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 596px;
+    top: 1925px;
+}
+.name-3 {
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 882px;
+    top: 1925px;
+}
+.name-4 {
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    left: 1183px;
+    top: 1925px;
+}
+.title-1 
+{
+position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1954px;
+}
+.title-2 {
+position: absolute;
+    width: 147px;
+    height: 19px;
+    left: 577px;
+    top: 1954px;
+}
+.title-3 {
+position: absolute;
+    width: 76px;
+    height: 19px;
+    left: 912px;
+    top: 1954px;
+}
+.title-4 {
+position: absolute;
+    width: 87px;
+    height: 19px;
+    left: 1207px;
+    top: 1954px;
+}
+
+/* подвал */
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.footer-address {
+    position: absolute;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 2208px;
+}
+.footer-map 
+ {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+}
+.footer-mail {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2238px;
+}
+.footer-tel  {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2268px;
+}
+/*Портфолио*/
+/*Кнопки*/
+.button {
+position: absolute;
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 174px;
+}
+.batton-all
+{
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+}
+.batton-websites
+{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+}
+.batton-programs
+{
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 712px;
+    top: 174px;
+}
+.batton-design
+{
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 865px;
+    top: 174px;
+}
+.batton-marketing
+{
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 976px;
+    top: 174px;
+}
+/*Примери робот*/
+.work-examples
+{
+position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+}
+
+.work-img-1 
+{
+box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 200px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-2 {
+box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 600px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-3 {
+box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1000px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    background: url(portfolio-1.jpg);
+}
+.work-img-4 {
+box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 200px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-5 {
+box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 600px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-6 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1000px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-7 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 200px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-8 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 600px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-img-9 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1000px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-h4-1 {
+    position: absolute;
+    width: 99px;
+    height: 36px;
+    left: 224px;
+    top: 576px;
+}
+.work-h4-2 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 624px;
+    top: 576px;
+}
+.work-h4-3 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1024px;
+    top: 576px;
+}
+.work-h4-4 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 224px;
+    top: 1010px;
+}
+.work-h4-5 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 624px;
+    top: 1010px;
+}
+.work-h4-6 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1024px;
+    top: 1010px;
+}
+.work-h4-7 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 224px;
+    top: 1444px;
+}
+.work-h4-8 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 624px;
+    top: 1444px;
+}
+.work-h4-9 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1024px;
+    top: 1444px;
+}
+.work-pp-1 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 224px;
+    top: 616px;
+}
+.work-pp-2 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 624px;
+    top: 616px;
+}
+.work-pp-3 {position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1024px;
+    top: 616px;
+} 
+.work-pp-4 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 224px;
+    top: 1050px;
+}
+.work-pp-5 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 624px;
+    top: 1050px;
+}
+.work-pp-6 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1024px;
+    top: 1050px;
+}
+.work-pp-7 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 224px;
+    top: 1484px;
+}
+.work-pp-8 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 624px;
+    top: 1484px;
+}
+.work-pp-9 {
+position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1024px;
+    top: 1484px;
+}
