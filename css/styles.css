@@ -12,16 +12,26 @@
     --footer-background-color: #2F303A;
     --hero-button-text-color: #FFFFFF;
     --hero-button-background-color: #2196F3;
+    --portf-battons-color-text: #212121;
+    --portf-battons-color-background: #F5F4FA;
+    --portf-battons-color-accent-tex:#FFFFFF;
+    --portf-battons-color-accent-background:#2196F3;
+    --section-work-color-tatle:#212121;
+    --section-work-color-text:#757575;
+
 }
 body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
 
-.list{ 
+.list
+{ 
     list-style: none;
 }
-.link{
+
+.link
+{
     text-decoration: none;
 }
 
@@ -34,7 +44,7 @@ body {
         letter-spacing: 0.03em;
 }
 
-.main > .invisible {
+.main .invisible-title {
     display: none;
 }
 
@@ -103,6 +113,11 @@ body {
     color: var(--hero-button-text-color);
     background-color: var(--hero-button-background-color);
 }
+.hero>.button:hover,
+.hero>.button:focus
+{
+    color: var(--title-text-color)
+}
 
 /*section-text*/
 .section-text .title {
@@ -150,4 +165,46 @@ background:  var(--section-people-background-color);
 .tel
 {
     color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+/* battons */
+.portfolio-nav > .battons 
+{
+ color: var(--portf-battons-color-text);
+ background-color: var(--portf-battons-color-background);
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-nav>.batton-all:hover,
+.portfolio-nav>.batton-all:focus,
+.portfolio-nav>.batton-websites:hover,
+.portfolio-nav>.batton-websites:focus,
+.portfolio-nav>.batton-programs:hover,
+.portfolio-nav>.batton-programs:focus,
+.portfolio-nav>.batton-design:hover,
+.portfolio-nav>.batton-design:focus,
+.portfolio-nav>.batton-marketing:hover,
+.portfolio-nav>.batton-marketing:focus
+{
+color: var(--portf-battons-color-accent-tex);
+background-color: var(--portf-battons-color-accent-background);
+}
+/*  section-work */
+.section-work .tatle
+{
+font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+     color: var(--section-work-color-tatle);
+}
+.section-work .text
+{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--section-work-color-text)
 }
