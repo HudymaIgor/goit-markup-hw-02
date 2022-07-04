@@ -16,6 +16,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--background-color);
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list
@@ -35,10 +36,9 @@ text-decoration: none;
     color: var(--accent-color);}
 
 .logo {
-font-weight: 700;
+    font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color:var(--nav-text-color);
 }
 
@@ -54,7 +54,7 @@ font-weight: 700;
     color: var(--accent-color);
 }
 
-.header-ul .current {
+.header-ul .current-page {
     color: var(--accent-color);
 }
 
@@ -75,11 +75,9 @@ font-weight: 700;
 /*main*/
 .section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .invisible-title {
@@ -113,7 +111,6 @@ font-weight: 700;
 
 .button-hero {
     font-family: inherit;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -132,16 +129,13 @@ font-weight: 700;
 /*section-text*/
 .text-title {
     color: var(--title-text-color);
-    font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .text-text {
         font-size: 14px;
         line-height: 1.7;
-        letter-spacing: 0.03em;
 }
 /* section-pictures */
 
@@ -160,12 +154,10 @@ text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
  }
 .people-position {
     font-size: 16px;
         line-height: 1.18;
-        letter-spacing: 0.03em;
  }
 /*footer*/
 .footer
@@ -182,13 +174,19 @@ text-align: center;
 {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
 .footer-ul .mail,
 .footer-ul .tel
 {
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-ul .mail:hover,
+.footer-ul .tel:hover,
+.footer-ul .mail:focus,
+.footer-ul .tel:focus
+ {
+    color: var(--accent-color);
 }
 /* portfolio */
 /* battons */
@@ -197,7 +195,6 @@ text-align: center;
     background:var(--secondary-zone-color);
     border-radius: 4px;
     text-align: center;
-    letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -214,8 +211,13 @@ text-align: center;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-
-/*  porfolio-work */
+.porfolio-ul .current-btn
+{
+    color: var(--background-color);
+    background: var(--accent-color);
+}
+/* portfolio */
+/*  work-list */
 
 .work-list li
 {
@@ -224,7 +226,6 @@ text-align: center;
     border: 1px solid var(--portfolio-border);
 }
 .work-tatle {
-    font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
@@ -235,6 +236,4 @@ text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
-
 }
